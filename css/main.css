@@ -1,0 +1,111 @@
+/* CSS Styles */
+
+
+.containerr {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1348px;
+    margin: 0 auto;
+    max-height: fit-content;
+   
+}
+
+.column {
+
+    padding: 20px;
+}
+
+.left, .right {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex-basis: 25%;
+}
+
+.center {
+    background-color: #fff;
+    border-radius: 10px;
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex-basis: 50%;
+}
+
+.principal-message h2{
+    background-color: #ffcb05;
+    color: #000;
+    font-size: 28px;
+    text-align: center;
+}
+
+.principal-message p, .notification p {
+    color: #070505;
+    line-height: 1.6;
+}
+
+.slideshow {
+    text-align: center;
+}
+
+.slideshow-containerr {
+    display: contents;
+   
+    grid-gap: 20px;
+    
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    margin: 35px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.principal-info {
+    display: block;
+    align-items: center;
+}
+
+.principal-photo {
+    margin-right: 20px;
+    
+}
+
+.principal-photo img {
+    width: 150px;
+    float: left;
+    height: 150px;
+    border-radius: 50%;
+   padding: 0 0 .2px;
+    margin-top: 24px;
+}
+
+.message-text {
+    
+    display: contents;
+    
+     width: calc(100% - 100px); /* Adjust based on photo size */
+}
+.message-text p{
+    margin-top: 49px;
+    position: relative;
+    color: #000;
+}
+.notification h2{
+    background-color: #ffcb05;
+    color: #000;
+    text-align: center;
+    font-size:28px ;
+}
+.notification h4{
+    background-color: #fad91c;
+    font:  sans-serif;
+    font-size: larger;
+}
+.slide {
+    display: none; /* Hide all slides by default */
+}
+
+.slide.active {
+    display: block; /* Display active slide */
+}

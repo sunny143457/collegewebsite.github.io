@@ -1,0 +1,71 @@
+
+.time{
+    background: url(image1/bluee.jpg);
+}
+.top-photo {
+    position: relative;
+    width: 100%;
+   width: 100%;;
+    margin: 20px 0;
+ background-position: center center;
+}
+
+.top-photo img {
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 31px;
+    font-weight: bold;
+    background-color: rgba(226, 211, 211, 0.5);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.row {
+    margin: 15px 100px;
+    
+    padding: 15px;
+    background: linear-gradient(145deg, #0c4af3, #000000);
+    border: 1px solid #ddd;
+    width: 80%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 -4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.row1 {
+    margin: 15px 100px;
+    padding: 15px;
+    background: linear-gradient(145deg, #ffee03, #000601);
+    border: 1px solid #ddd;
+    width: 80%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 -4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.row:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 -6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #2c3e50;
+}

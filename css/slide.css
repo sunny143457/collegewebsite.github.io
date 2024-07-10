@@ -1,0 +1,35 @@
+.slideshow-container {
+    
+    width: 60%;
+    margin: 67px auto;
+    overflow: hidden;
+    justify-content: centerl;
+    
+    border: 2px solid red;
+    
+    padding: 0 0 .2px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .fade {
+    animation-name:fade;
+    animation-duration: 2s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 2;
+    }
+  }
+  
+.slide img {
+   width: 88%;
+   height: 444.34px;
+  }
+  

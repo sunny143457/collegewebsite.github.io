@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.teacher-container {
+    max-width: 800px;
+    margin: -22px auto;
+    padding: 20px;
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-wrap: wrap; /* Allow wrapping to next row */
+    justify-content: space-between; 
+    
+    
+}
+.teacher {
+    width: calc(25% - 20px); /* Adjust width to fit four teachers in one row with margin */
+    margin-bottom: 30px;
+    border: 2px solid #e41111;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in the width */
+    background-color: #ffc94a;
+    border-radius: 40px;
+
+    
+}
+.teacher img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 98px;
+}
+.teacher img.zoomable:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+/* Your existing CSS code */
+
+.social-media {
+    margin-top: 10px;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-media a img {
+    width: 30px; /* Adjust the size of social media logos */
+    height: 30px; /* Adjust the size of social media logos */
+    margin-left: 3px;
+    margin: 2px;
+    margin-right: 2px;
+}
+.teacher p{
+    color: black;
+    text-align: center;
+}
+.teacher h2{
+    color:black;
+    text-align: center;
+}

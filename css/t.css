@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.department-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+ 
+}
+
+.department {
+  background-color: #fff;
+  
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 20px);
+  text-align: center;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+  transition: transform 0.2s ease;
+}
+
+.department:hover {
+  transform: translateX(-5px);
+}
+
+.department h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+
+.teacher-info {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.teacher {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.teacher img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.teacher-details h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.teacher-details p {
+  margin: 5px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .department {
+      width: 100%;
+  }
+}
